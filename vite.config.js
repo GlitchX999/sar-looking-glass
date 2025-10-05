@@ -5,5 +5,13 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
+    open: true
   },
+  build: {
+    outDir: 'dist',
+    sourcemap: true
+  },
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'three', '@tensorflow/tfjs']
+  }
 })
