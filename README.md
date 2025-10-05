@@ -36,7 +36,7 @@ This project was developed for the NASA Space Apps Challenge 2023, addressing th
 
 
 ### Project Structure :
-text
+```
 sar-looking-glass/
 ├── public/
 │   └── index.html
@@ -58,6 +58,7 @@ sar-looking-glass/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
 ### File Descriptions
 
@@ -218,5 +219,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 </div>
+
 
 
