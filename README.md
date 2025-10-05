@@ -33,6 +33,30 @@ This project was developed for the NASA Space Apps Challenge 2023, addressing th
 | **CSS3** | Styling and responsive design |
 | **Vite** | Build tool and development server |
 
+### Project Structure
+'''
+sar-looking-glass/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── Navbar.css
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Home.css
+│   │   ├── ChennaiFloods.jsx
+│   │   ├── WayanadLandslide.jsx
+│   │   ├── About.jsx
+│   │   └── CaseStudy.css
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+'''
 
 ### File Descriptions
 
@@ -66,32 +90,21 @@ This project was developed for the NASA Space Apps Challenge 2023, addressing th
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/GlitchX999/sar-looking-glass.git
-   cd sar-looking-glass
-   ```
+# Create the project directory and navigate to it
+mkdir sar-looking-glass
+cd sar-looking-glass
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+# Initialize npm project
+npm init -y
 
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
+# Install dependencies
+npm install react react-dom react-router-dom recharts leaflet react-leaflet
+npm install --save-dev @vitejs/plugin-react vite
 
-4. **Open your browser**
-   Navigate to `http://localhost:3000` to view the application
+# Create all the files as shown above
+# Then run:
+npm run dev
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory, ready for deployment.
 
 ## Mock Data Structure
 
@@ -205,3 +218,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 </div>
+
