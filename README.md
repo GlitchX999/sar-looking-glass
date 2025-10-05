@@ -33,8 +33,10 @@ This project was developed for the NASA Space Apps Challenge 2023, addressing th
 | **CSS3** | Styling and responsive design |
 | **Vite** | Build tool and development server |
 
-### Project Structure
-'''
+
+
+### Project Structure :
+text
 sar-looking-glass/
 ├── public/
 │   └── index.html
@@ -56,7 +58,6 @@ sar-looking-glass/
 ├── package.json
 ├── vite.config.js
 └── README.md
-'''
 
 ### File Descriptions
 
@@ -81,15 +82,14 @@ sar-looking-glass/
 - **`package.json`** - Project dependencies and scripts
 - **`vite.config.js`** - Vite build tool configuration
 
-##  Quick Start
 
 ### Prerequisites
 
 - Node.js (version 14 or higher)
 - npm or yarn package manager
 
-### Installation
-
+### Quick Setup Commands:
+bash
 # Create the project directory and navigate to it
 mkdir sar-looking-glass
 cd sar-looking-glass
@@ -104,7 +104,7 @@ npm install --save-dev @vitejs/plugin-react vite
 # Create all the files as shown above
 # Then run:
 npm run dev
-
+Your application should run without any "dev file missing" errors! The development server will start on http://localhost:3000.
 
 ## Mock Data Structure
 
@@ -218,4 +218,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 </div>
+
 
