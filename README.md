@@ -33,31 +33,6 @@ This project was developed for the NASA Space Apps Challenge 2023, addressing th
 | **CSS3** | Styling and responsive design |
 | **Vite** | Build tool and development server |
 
-##  Project Structure
-
-```
-sar-looking-glass/
-├── public/
-│   ├── index.html
-│   └── vite.svg
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   └── Navbar.css
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Home.css
-│   │   ├── ChennaiFloods.jsx
-│   │   ├── WayanadLandslide.jsx
-│   │   ├── About.jsx
-│   │   └── CaseStudy.css
-│   ├── App.jsx
-│   ├── App.css
-│   └── main.jsx
-├── package.json
-├── vite.config.js
-└── README.md
-```
 
 ### File Descriptions
 
@@ -93,7 +68,7 @@ sar-looking-glass/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/sar-looking-glass.git
+   git clone https://github.com/GlitchX999/sar-looking-glass.git
    cd sar-looking-glass
    ```
 
@@ -220,13 +195,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ##  Contact
 
 **Project Maintainer**: [Jayanth adhithyaa G R]  
-**Email**: [jayanthadhithyaagr@gmail.com.com]  
-**GitHub**: [https://github.com/your-username](https://github.com/your-username)
+**Email**: [jayanthadhithyaagr@gmail.com]  
 
 ---
 
 <div align="center">
 
 *"Seeing the world through radio waves"* 
+
 
 </div>
