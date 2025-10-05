@@ -97,23 +97,36 @@ sar-looking-glass/
    cd sar-looking-glass
    ```
 
-2. **Initialize npm project**
+2. **Install all dependencies**
    ```bash
-   npm init -y
+   npm install
    ```
-3. **Install dependencies**
+3. **Install Specfic Missing dependencies**
    ```bash
-   npm install react react-dom react-router-dom recharts leaflet react-leaflet
-   npm install --save-dev @vitejs/plugin-react vite
+   npm install @tensorflow/tfjs @react-three/fiber @react-three/drei react-router-dom recharts
    ```
 
-4. **Start the development server**
+4. **Install dev dependencies**
    ```bash
+   npm install -D @vitejs/plugin-react vite @testing-library/user-event
+   ```
+
+
+5. **Start development server**
+  ```bash
    npm run dev
    ```
 
-5. **Open your browser**
-   Navigate to `http://localhost:3000` to view the application
+
+6. **Run tests**
+    ```bash
+   npm test
+   ```
+   
+7.**Open your browser**
+
+Navigate to `http://localhost:3000` to view the application
+
 
 ## Mock Data Structure
 
@@ -227,6 +240,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 </div>
+
 
 
 
