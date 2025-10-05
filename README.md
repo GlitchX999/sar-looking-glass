@@ -89,23 +89,31 @@ sar-looking-glass/
 - Node.js (version 14 or higher)
 - npm or yarn package manager
 
-### Quick Setup Commands:
-bash
-# Create the project directory and navigate to it
-mkdir sar-looking-glass
-cd sar-looking-glass
+### Installation
 
-# Initialize npm project
-npm init -y
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/GlitchX999/sar-looking-glass.git
+   cd sar-looking-glass
+   ```
 
-# Install dependencies
-npm install react react-dom react-router-dom recharts leaflet react-leaflet
-npm install --save-dev @vitejs/plugin-react vite
+2. **Initialize npm project**
+   ```bash
+   npm init -y
+   ```
+3. **Install dependencies**
+   ```bash
+   npm install react react-dom react-router-dom recharts leaflet react-leaflet
+   npm install --save-dev @vitejs/plugin-react vite
+   ```
 
-# Create all the files as shown above
-# Then run:
-npm run dev
-Your application should run without any "dev file missing" errors! The development server will start on http://localhost:3000.
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   Navigate to `http://localhost:3000` to view the application
 
 ## Mock Data Structure
 
@@ -219,6 +227,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 </div>
+
 
 
 
